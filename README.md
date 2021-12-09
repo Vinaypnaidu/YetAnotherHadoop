@@ -4,7 +4,7 @@ Yet Another Hadoop or YAH is a mini-HDFS setup on your system, complete with the
 
 With YAH, you will possess finer control over your data blocks and their replication, and allow you to create a distributed file system as per your needs. YAH also allows running Hadoop like jobs to break down computationally heavy tasks into smaller distributed tasks.
 
-Project specifications can be found in the specifications.pdf file.
+Project specifications can be found in the `specifications.pdf` file.
 
 ## Software/Languages to be used:
 Python 3.8.x
