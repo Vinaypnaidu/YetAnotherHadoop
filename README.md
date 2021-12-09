@@ -25,6 +25,13 @@ This script starts the CLI. Commands such as put, cat, ls, rm can be executed an
 
 `python3 cli.py`
 
+Writing a file to the DFS - `put <absolute path of the file>`
+Reading a file from the DFS - `cat <filename>`
+Listing all files in the DFS - `ls`
+Deleting a file from the DFS - `rm <filename>`
+Running a Map-Reduce job - `runmapreducejob -i <absolute path of input file> -o <absolute path of output file> -c <absolute path of dfs setup file> -m <absolute path of mapper file> -r <absolute path of reducer file>'
+
+
 ### Implementation details
 The Heartbeat functionality is implemented using UDP client-server model. After every `sync_period` seconds, the datanodes send a message to the primary namenode. The primary namenode also sends the heartbeat to secondary namenode every `sync_period` seconds. The secondary namenode periodically performs backup of the primary namenode metadata files every `sync_period` seconds. Data will be persistent. When a file is written to DFS, replication will be performed according to the size of the file, `block_size` and `replication_factor`.
 
