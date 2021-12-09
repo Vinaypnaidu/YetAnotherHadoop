@@ -26,19 +26,15 @@ This script starts the CLI. Commands such as put, cat, ls, rm can be executed an
 `python3 cli.py`
 
 Writing a file to the DFS -
-
 `put <absolute path of the file>`
 
 Reading a file from the DFS -
-
 `cat <filename>`
 
 Listing all files in the DFS - 
-
 `ls`
 
 Deleting a file from the DFS - 
-
 `rm <filename>`
 
 Running a Map-Reduce job - 
