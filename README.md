@@ -17,29 +17,35 @@ Python 3.8.x
 
 ### Creating the DFS 
 This process initialises the distributed file system. Datanode folders, datanode code files, namenode and secondary namenode files, metadata files get created. It takes the `config_sample.json` file as the configuration file. If the file is not provided, a default configuration will be loaded. 
-
-`python3 createhdfs.py`
+```bash
+$ python3 createhdfs.py
+```
 
 ### Starting the Command Line Interface (CLI)
 This script starts the CLI. Commands such as put, cat, ls, rm can be executed and map reduce jobs can be executed. 
-
-`python3 cli.py`
-
+```bash
+$ python3 cli.py
+```
 Writing a file to the DFS -
-`put <absolute path of the file>`
-
+```
+put <absolute path of the file>
+```
 Reading a file from the DFS -
-`cat <filename>`
-
+```
+cat <filename>
+```
 Listing all files in the DFS - 
-`ls`
-
+```
+ls
+```
 Deleting a file from the DFS - 
-`rm <filename>`
-
+```
+rm <filename>
+```
 Running a Map-Reduce job - 
-
-`runmapreducejob -i <absolute path of input file> -o <absolute path of output file> -c <absolute path of dfs setup file> -m <absolute path of mapper file> -r <absolute path of reducer file>`
+```
+runmapreducejob -i <absolute path of input file> -o <absolute path of output file> -c <absolute path of dfs setup file> -m <absolute path of mapper file> -r <absolute path of reducer file>
+```
 
 The example `mapper.py` and `reducer.py` files can be used to test the working. The US Accident datset and the map reduce specifications are also included in the `MapReduceExample` folder.  
 
