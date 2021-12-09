@@ -14,5 +14,6 @@ Python 3.8.x
 
 3. [K S Abhisheka ](https://github.com/Abhi-k-s)
 
-## Creating the HDFS 
+### Creating the HDFS 
+This process initialises the distributed file system. Datanode folders, datanode code files, namenode and secondary namenode files, metadata files get created.
 `python3 createhdfs.py`
