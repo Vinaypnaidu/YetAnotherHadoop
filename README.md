@@ -13,3 +13,6 @@ Python 3.8.x
 2. [Lithesh Shetty ](https://github.com/shettylithesh)
 
 3. [K S Abhisheka ](https://github.com/Abhi-k-s)
+
+## Creating the HDFS 
+`python3 createhdfs.py`
