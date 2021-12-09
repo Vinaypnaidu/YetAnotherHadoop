@@ -44,7 +44,8 @@ rm <filename>
 ```
 Running a Map-Reduce job - 
 ```
-runmapreducejob -i <absolute path of input file> -o <absolute path of output file> -c <absolute path of dfs setup file> -m <absolute path of mapper file> -r <absolute path of reducer file>
+runmapreducejob -i <absolute path of input file> -o <absolute path of output file> -c <absolute path of dfs setup 
+file> -m <absolute path of mapper file> -r <absolute path of reducer file>
 ```
 
 The example `mapper.py` and `reducer.py` files can be used to test the working. The US Accident datset and the map reduce specifications are also included in the `MapReduceExample` folder.  
