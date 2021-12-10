@@ -6,7 +6,7 @@ With YAH, you will possess finer control over your data blocks and their replica
 
 Project specifications can be found in the `specifications.pdf` file.
 
-## Software/Languages to be used:
+## Software/Languages used:
 Python 3.8.x
 ## Team members:
 1. [Vinay P ](https://github.com/Vinaypnaidu)
