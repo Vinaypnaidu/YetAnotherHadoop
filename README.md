@@ -53,4 +53,4 @@ The example `mapper.py` and `reducer.py` files can be used to test the working. 
 ### Implementation details
 The Heartbeat functionality is implemented using UDP client-server model. After every `sync_period` seconds, the datanodes send a message to the primary namenode. The primary namenode also sends the heartbeat to secondary namenode every `sync_period` seconds. The secondary namenode periodically performs backup of the primary namenode metadata files every `sync_period` seconds. Data will be persistent. When a file is written to DFS, replication will be performed according to the size of the file, `block_size` and `replication_factor`.
 
-The deletion of replicas when `rm <filename>` command is executed and the implementation of datanodes as servers is yet to be implemented.
+The deletion of replicas when `rm <filename>` command is executed and the implementation of datanodes as servers is yet to be done.
